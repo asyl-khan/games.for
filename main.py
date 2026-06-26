@@ -237,7 +237,7 @@ def memoryrizzer2():
         font=("Arial", 12),
         command=lambda: exit_to_menu(root)
     )
-    exit_btn.pack(pady=10)
+    exit_btn.grid(row=5, column=0, columnspan=4, pady=10)
 
     # Создание кнопок
     for i in range(16):
